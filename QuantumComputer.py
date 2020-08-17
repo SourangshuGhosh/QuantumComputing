@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Author: Sourangshu Ghosh
+# Author: Sourangshu Ghosh
 
 import numpy as np
 import unittest
@@ -73,6 +74,7 @@ class Gate(object):
 	CNOT4_30[np.array([5,13])]=CNOT4_30[np.array([13,5])]
 	CNOT4_30[np.array([7,15])]=CNOT4_30[np.array([15,7])]
 
+	# Author: Sourangshu Ghosh
 	# operates on 2 out of 5 entangled qubits, control is first subscript, target second
 	CNOT5_01=np.kron(CNOT4_01,eye)
 	CNOT5_10=np.kron(CNOT4_10,eye)
