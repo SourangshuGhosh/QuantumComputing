@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Author: corbett@caltech.edu
+# Author: Sourangshu Ghosh
 
 import numpy as np
 import unittest
@@ -111,6 +111,7 @@ class Gate(object):
 	CNOT5_40[np.array([13,29])]=CNOT5_40[np.array([29,13])]
 	CNOT5_40[np.array([15,31])]=CNOT5_40[np.array([31,15])]
 
+# Author: Sourangshu Ghosh
 ####
 ## States
 ####
